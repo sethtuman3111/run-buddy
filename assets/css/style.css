@@ -53,17 +53,20 @@ footer{
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
-    display: inline;
+
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 
-footer div{
-    float: right;
+footer div {
+
     line-height: 1.5;
     text-align: right;
 }
@@ -80,10 +83,9 @@ section {
 /* Hero Style Start */
 .hero {
     background-image: url(https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg);
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    
     
 }
 /*Hero Style End */
@@ -91,26 +93,26 @@ section {
 .hero-form {
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
+
     color: #024e76
 }
 
-.hero-form {
-    ...
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
-}
+
 
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
     color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    color: #fce138;
+
 }
 
 .hero-form h3 {
@@ -142,6 +144,21 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 .intro {
     text-align: center;
